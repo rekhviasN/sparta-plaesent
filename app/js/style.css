@@ -43,14 +43,13 @@
 	text-decoration: underline;
 }
 
-
-
 .article {
 	text-align: left;
 	border-bottom: solid 1px lightgray;
 	margin: 2% 2% 2% 2%
 	font-size: 14px;
 	padding: 10% 10% 10% 1%;
+	break-inside: avoid;
 }
 
 .articleContainer {
@@ -76,6 +75,8 @@
 	background-color:yellow;
 }
 .articleTitle {
+	padding-top: 20%;
+	padding-bottom: 10%;
 	font-size: 40px;
 	font-family: "Springville";
 }
