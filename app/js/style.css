@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "CaslonPro";
+    src: url('./public/ACaslonPro-Regular.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "Springville";
+    src: url('./public/Springville-Regular3.otf') format("truetype");
+}
+
+.carousel {
+	padding-top: 11%;
+}
+
+.header {
+	max-height: 70px;
+	padding-top: 3%;
+	font-family: "Helvetica";
+	z-index: 1;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+}
+.headerLogo {
+	float:left;
+	height: 25%;
+	width: 25%;
+	padding-left:10%;
+}
+
+.phone {
+	float: right;
+	margin: 2% 5% 0% 10%;
+}
+
+.headerLogin {
+	float: right;
+	margin: 2% ;
+	padding-right:1%;
+}
+
+.headerLogin:hover {
+	text-decoration: underline;
+}
+
+
+
+.article {
+	text-align: left;
+	border-bottom: solid 1px lightgray;
+	margin: 2% 2% 2% 2%
+	font-size: 14px;
+	padding: 10% 10% 10% 1%;
+}
+
+.articleContainer {
+	text-align: center;
+	padding: 5% 5% 5% 5%;
+	column-count: 3
+
+}
+
+.footer {
+	font-size: 10px;
+	font-family: "Helvetica";
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+
+.footerLink {
+	text-decoration: underline
+}
+
+.footerLink:hover {
+	background-color:yellow;
+}
+.articleTitle {
+	font-size: 40px;
+	font-family: "Springville";
+}
+
+.articleTitle:hover {
+	text-decoration: underline;
+}
+
+.articleAuthor {
+	font-family: "CaslonPro";
+}
+.author:hover {
+	background-color: yellow;
+}
+
+.articleDate {
+	font-family: "Helvetica";
+	font-size: 10px;
+	color: gray;
+}
+
+.bar {
+	width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+}
+.headerMenu {
+	float: right;
+	margin-top: 1%;
+	margin-right:7%;
+}
+
+.headerMenu:hover{
+	background-color:lightgray;
+}
