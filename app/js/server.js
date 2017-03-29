@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const path = require('path');
 const port = process.env.PORT || 8000;
+const webpackConfig = require('../../webpack.config.js');
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -11,6 +12,7 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, '../')));
 
+app.get("/", )
 app.listen(port, () => {
   console.log('Listening on port ', port);
 });
