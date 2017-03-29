@@ -4,11 +4,11 @@ logs
 npm-debug.log*
 
 # Dependency directories
-node_modules/
+node_module
 
 # Font files
-js/public/ACaslonPro-Regular.otf
-js/public/Springville-Regular3.otf
+app/js/public/ACaslonPro-Regular.otf
+app/js/public/Springville-Regular3.otf
 
 # Dist file
 app/bundle.js
