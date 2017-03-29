@@ -12,7 +12,6 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, '../')));
 
-app.get("/", )
 app.listen(port, () => {
   console.log('Listening on port ', port);
 });
